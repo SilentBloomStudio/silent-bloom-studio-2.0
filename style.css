@@ -141,3 +141,8 @@ footer {
   0% { transform: translateY(-50px) rotate(0deg); }
   100% { transform: translateY(110vh) rotate(360deg); }
 }
+
+nav a.active {
+  color: #ff80df;
+  text-shadow: 0 0 10px #ffb3ff;
+}
