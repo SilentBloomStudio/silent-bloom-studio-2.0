@@ -61,3 +61,63 @@ transition: background 0.3s ease;
 background: #6a0dad;
 }
 ```
+
+/* General Body */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff0f5; /* light lavender/pink background */
+    color: #333;
+}
+
+/* Header / Navigation */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #a45cd2, #f76ca4); /* vibrant purple to pink */
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+    color: #ffe0f0;
+    text-shadow: 0 0 5px #fff;
+    transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(rgba(160,92,211,0.5), rgba(247,108,164,0.5)), 
+                url('https://i.imgur.com/lb9pOQy.jpg') no-repeat center/cover;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    c
